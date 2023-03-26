@@ -7,3 +7,9 @@ body {
    align-items: center;
    justify-content: center; 
 }
+
+.shelf {
+    width: 520px;
+    height: 20px;
+    background-color: #5a3f21;
+}
