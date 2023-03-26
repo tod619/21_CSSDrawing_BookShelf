@@ -110,3 +110,25 @@ body {
     right: 23px;
     border-radius: 90px 90px 0 0;
 }
+
+.clock-foot-left {
+    height: 50px;
+    width: 12px;
+    background-color: #47321a;
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+.clock-foot-right {
+    height: 50px;
+    width: 12px;
+    background-color: #47321a;
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+    transform: rotate(-30deg);
+    z-index: -1;
+}
