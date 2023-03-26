@@ -12,4 +12,27 @@ body {
     width: 520px;
     height: 20px;
     background-color: #5a3f21;
+    position: relative;
+}
+
+.clock {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #e9e6c9;
+    border: 10px solid #5aa668;
+    position: absolute;
+    left: 30px;
+    top: -135px;
+}
+
+.knot {
+    width: 10px;
+    height: 10px;
+    background-color: #9d374f;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
 }
