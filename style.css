@@ -66,3 +66,47 @@ body {
     width: 2px;
     transform: translate(-50%, -100%) rotate(-40deg);
 }
+
+.clock-alarm-left {
+    height: 30px;
+    width: 60px;
+    background-color: #5aa668;
+    position: absolute;
+    left: -38px;
+    top: -12px;
+    border-radius: 90px 90px 0 0;
+    transform: rotate(-50deg);
+}
+
+.clock-alarm-left::after {
+    content: "";
+    width: 15px;
+    height: 8px;
+    background-color: #9d374f;
+    position: absolute;
+    top: -9px;
+    left: 23px;
+    border-radius: 90px 90px 0 0;
+}
+
+.clock-alarm-right {
+    height: 30px;
+    width: 60px;
+    background-color: #5aa668;
+    position: absolute;
+    right: -38px;
+    top: -12px;
+    border-radius: 90px 90px 0 0;
+    transform: rotate(50deg);
+}
+
+.clock-alarm-right::after {
+    content: "";
+    width: 15px;
+    height: 8px;
+    background-color: #9d374f;
+    position: absolute;
+    top: -9px;
+    right: 23px;
+    border-radius: 90px 90px 0 0;
+}
